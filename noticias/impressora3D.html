@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="PT-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clube de Robótica da UC</title>
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../css/style.css'/>
+    <link rel='stylesheet' href='../paginas/cabecalho.css'/>
+    <link rel='stylesheet' href='../paginas/noticias.css'/>
+    <link rel='stylesheet' href='modelo.css'/>
+    <link rel='stylesheet' href='paginas.css'/>
+
+    <!-- jQuery library (served from Google) -->
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+
+<div class="header">
+        <ul>
+            <div class="logo">
+                <li class="li0"><a href="../index.html"><img id="logo" src="../imagens/logo/logo_teste3.png" width="150"/></a></li>
+            </div>
+            <div id="tablet">
+                <a href="javascript:show();"><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <div class="menu">
+                <li><img src="../imagens/barra/noticias.svg"><a href="../paginas/noticias.html">Notícias</a></li>
+                <li><img src="../imagens/barra/competicoes.svg"><a href="../paginas/competicoes.html">Competições</a></li>
+                 <li><img src="../imagens/barra/database.svg"><a href="../paginas/database.html">DataBase</a></li>
+                <li><img src="../imagens/barra/servicos.svg"><a href="../paginas/servicos.html">Serviços</a></li>
+                <li><img src="../imagens/barra/contactos.svg"><a href="../paginas/contactos.html">Contactos</a></li>
+            </div>
+        </ul>
+</div>
+
+<div class="pagina_impressora3D">
+
+    <div class="margem_paginas">
+
+        <div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Impressora</p>
+            <p style="margin: 0px">3D</p>
+        </div>
+        <div class="noticias_data" id="ajuste">
+            <p>Segunda-feira, 6/10/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="text">
+            
+            <p>O Clube acabou de adquirir uma impressora 3D com a qual vamos poder fazer plataformas para robôs de modo prático e a distância de um clique. Infelizmente o tempo de impressão é a desvantagem das impressoras 3D da actualidade. No entanto já é um grande avanço na área da tecnologia. Até já equipas de médicos utilizam esta tecnologia para desemvolverem proteses.</p>
+
+            <p>Exemplo disso é uma equipa de cirurgiões que se deparou com o problema de operar um coração de uma criança de 14 meses que é algo muito arriscado por ser de um tamanho muito reduzido. A ideia da equipa passou por criar uma réplica do coração do bebé em uma impressora 3D a partir de imagens de ressonância magnética do órgão permintindo analizar o mesmo sem cirurgia exploratória diminuidoo tempo de operação.<a class="link" href="http://childrensnyp.org/mschony/printed-heart-model.html" target="_blank">Notícia do NewYork-Presbyterian/Morgan Stanley Children’s Hospital.</a></p>
+
+            <p class="subsubtitulo">Entrevista NBC</p>
+            <iframe class="video" src="http://player.theplatform.com/p/2E2eJC/nbcNewsOffsite?guid=c_squawkstreet_3dprintedh_141008" width="650" height="425" scrolling="no" frameborder="0"></iframe>
+
+
+            <p class="subtitulo">BQ Prusa i3 Hephestos</p>
+            <p>É a impressora 3D que o Clube adquiriu pela BQ. É baseada numa<a class="link" href="http://en.wikipedia.org/wiki/RepRap_Project" target="_blank">RepRap</a>que é uma impressora 3D Open Source. Vimos que é constituida por:</p>
+
+            <ul class="lista">
+            <li>Hardware</li>
+            <ul>
+                <li>Freeduino<a class="link" href="http://arduino.cc/en/Main/arduinoBoardMega2560" target="_blank">Mega 2560</a>com Leitor de cartões SD responsavél por todo o processamento;</li>
+                <li>Ramps 1.4,<a class="link" href="http://reprap.org/wiki/RAMPS_1.4" target="_blank">RepRap Arduino Mega Pololu Shield,</a>é o shield que faz a conexão entre o Mega e todos os componentes eletrónicos necessários contendo por exemplo controladores de motores passo;</li>
+                <li>5 Motores passo, um no eixo X e Y e na extrusora, e dois no eixo Z;</li>
+                <li>Ecrã LCD com encoder rotativo com pulsador para a navegação;</li>
+                <li>Fonte de alimentação de 220 AC 12 DC 100W;</li>
+                <li>Termístores 100k na extrusora;</li>
+                <li>Cartucho aquecedor 40W 12V;</li>
+                <li>Ventiladores brushless axiais.</li>
+            </ul>
+            </ul>
+            <ul class="lista">
+            <li>Software</li>
+            <ul>
+                <li>Firmware derivado do<a class="link" href="https://github.com/bq/Marlin/tree/v1.3.1_hephestos" target="_blank">Marlin;</a></li>
+                <li>Nós usamos o<a class="link" href="https://www.ultimaker.com/pages/our-software" target="_blank">Cura Software</a> como ambiente de impressão mas também é recomendado o slic3r, Repetier e Kisslicer;</li>
+                <li>Ficheiros admitidos: ".gcode".</li>
+            </ul>
+            </ul>
+
+            <p>Já podemos quase que construír outra impressora 3D, para isso basta<a class="link" href="https://static-bqreaders.s3.amazonaws.com/file/Prusa/piecess_Hephestos.zip" target="_blank">Imprimir as Peças</a> e adquirir os restantes componentes necessários, tais como o tabuleiro e eixos, assim como os<a class="link" href="http://reprap.org/wiki/Prusa_i3_Hephestos/pt" target="_blank">passos para a construção</a>e toda a informação utíl da Impressora 3D.</p>
+
+            <p>Vê o seguinte vídeo para te abrir o aptite.</p>
+
+            <p class="subsubtitulo">Guia Prático</p>
+
+            <iframe class="video" width="650" height="368" src="//www.youtube.com/embed/nvTeJvRi8Bo" frameborder="0" allowfullscreen></iframe>
+
+            <p><u class="sublinhado">E onde posso fazer os modelos 3D?</u> Nós aconselhamos a usar o<a class="link" href="http://www.sketchup.com" target="_blank">Sketchup</a>por ser muito facíl de usar e intituivo. Mas poderás usar outros, como o 3DS, desde que faças a devida<a class="link" href="https://sites.google.com/site/wikicncdiy/sketchup" target="_blank">conversão para ficheiro ".gcode".</a></p>
+
+            <p><u class="sublinhado">Existem modelos 3D para imprimir?</u> Sim existem, para o efeito existe o<a class="link" href="http://www.thingiverse.com" target="_blank">Thingiverse.</a>É uma comunidade de partilha de modelos 3D os quais podes imprimir numa impressora 3D. Lá encontrás variadissímos modelos 3D o que poupará tempo ao teu projecto.</p>
+
+            <p>Por ultimo estamos a estudar a possibilidade de disponibilizar a impressora 3D <u class="sublinhado">ao serviço dos estudantes da Universidade de Coimbra</u> de forma ordeira. Esperemos que esteja <u class="sublinhado">brevemente disponível</u>.</p>
+
+            <a class="feed_text_saber" href="javascript:history.back()"><p>Back</p></a>
+
+        </div>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="contactos">
+        <a href="paginas/contactos.html"><i class="fa fa-envelope-o fa-2x"></i></a>
+        <a href="https://www.facebook.com/clube.robotica.uc?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+    </div>
+
+    <p class="direitos">@ 2014 Todos os direitos reservados. Desenvolvido por Frederico Vaz.</p>
+</footer>
+
+</body>
+
+<script>
+
+$( document ).ready(function() {
+    $('.noticias_titulo').addClass('animar');
+    $('.noticias_data').addClass('animar');
+    $('.header').addClass('animar');
+    $('.text').addClass('animar');
+});
+
+
+</script>
+
+</html>

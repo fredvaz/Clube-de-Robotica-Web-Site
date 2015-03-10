@@ -1,0 +1,124 @@
+.pagina_competicoes {
+    background-color: white;
+    width: 100%;
+    height: 5150px;
+}
+.competicoes_titulo, .competicoes_categ {
+    color: #236B8E;
+}
+.competicoes_titulo {
+    font-size: 50px;
+    float: left;
+    -webkit-transform: translate(-70px,0);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.competicoes_categ {
+    float: right;
+    margin-top: 110px; /*De acordo com o tamanho do titulo*/
+    -webkit-transform: translate(70px,0);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+#ajuste {
+    margin-top: 63px;
+}
+.sub_bloco0 {
+    clear: both;
+    height: 300px;
+}
+.competicoes_img {
+	width: 250px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.competicoes_text {
+    width: 375px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 40px;
+    /*margin-bottom: 100px;*/
+}
+.nota {
+    width: 650px;
+    margin: auto;
+    margin-top: 40px;
+}
+.animar {
+    -webkit-transform: translate(0px,0);
+}
+@media screen and (max-device-width: 800px), (max-width: 800px){ /* As imagens e o texto estão +- */
+    .pagina_competicoes {
+        height: 5900px; 
+    }
+    .margem_paginas {
+        padding-top: 40px;
+    }
+    .competicoes_titulo {
+        font-size: 35px;
+        margin-top: 40px;
+        -webkit-transform: none;
+    }
+    .competicoes_categ {
+        font-size: 13px;
+        -webkit-transform: none;
+    }
+    #ajuste {
+        margin-top: 90px;
+    }
+    .sub_bloco0 {
+        height: 370px;
+    }
+    .competicoes_img {
+        width: 240px;
+        margin-top: 55px;
+    }
+    .competicoes_text {
+        width: 280px;
+        margin-top: 30px;
+        font-size: 19px;
+        /*text-align: justify;*/
+    }
+    .linha {
+    	margin-left: -7px;
+    }
+    .nota {
+        width: 550px;
+        font-size: 19px;
+    }
+    #danca {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-device-width: 480px), (max-width: 480px){
+    .pagina_competicoes {
+        height: 4000px; 
+    }
+    .competicoes_titulo {
+        font-size: 25px;
+        float: none;
+        text-align: center;
+        -webkit-transform: none;
+    }
+    .competicoes_categ {
+        display: none;
+    }
+    .sub_bloco0 {
+        height: 270px;
+    }
+    .competicoes_img {
+        display: none;
+    }
+    .competicoes_text {
+        width: 300px;
+        float: none;
+        margin-right: none;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    .linha {
+        margin-left: 3px;
+    }
+    .nota {
+        width: 300px;
+    }
+}

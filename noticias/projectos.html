@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="PT-PT">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="image_src" href="../imagens/noticias/bombeiro.jpg" / >
+    <title>Projectos</title>
+
+    <meta name="description" content="Um dos objectivos do Clube é permitir a nossa comunidade desenvolver as suas ideias ou algumas que venhamos a propor num ambiente de inter-ajuda assim como facilitar o peso econômico de um projecto que não seria realizavél por uma só pessoa."/>
+
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../css/style.css'/>
+    <link rel='stylesheet' href='../paginas/cabecalho.css'/>
+    <link rel='stylesheet' href='../paginas/noticias.css'/>
+    <link rel='stylesheet' href='modelo.css'/>
+    <link rel='stylesheet' href='paginas.css'/>
+
+    <!-- jQuery library (served from Google) -->
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+
+<div class="header">
+        <ul>
+            <div class="logo">
+                <li class="li0"><a href="../index.html"><img id="logo" src="../imagens/logo/logo_teste3.png" width="150"/></a></li>
+            </div>
+            <div id="tablet">
+                <a href="javascript:show();"><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <div class="menu">
+                <li><img src="../imagens/barra/noticias.svg"><a href="../paginas/noticias.html">Notícias</a></li>
+                <li><img src="../imagens/barra/competicoes.svg"><a href="../paginas/competicoes.html">Competições</a></li>
+                 <li><img src="../imagens/barra/database.svg"><a href="../paginas/database.html">DataBase</a></li>
+                <li><img src="../imagens/barra/servicos.svg"><a href="../paginas/servicos.html">Serviços</a></li>
+                <li><img src="../imagens/barra/contactos.svg"><a href="../paginas/contactos.html">Contactos</a></li>
+            </div>
+        </ul>
+</div>
+
+<div class="pagina_projectos">
+
+    <div class="margem_paginas">
+
+        <div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Os Projectos</p>
+            <p style="margin: 0px">Do Clube</p>
+        </div>
+        <div class="noticias_data" id="ajuste">
+            <p>Quinta-feira, 04/12/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="text">
+            <p>Um dos objectivos do Clube é permitir a nossa comunidade desenvolver as suas ideias ou algumas que venhamos a propor num ambiente de inter-ajuda assim como facilitar o peso econômico de um projecto que não seria realizavél por uma só pessoa.</p>
+
+
+            <ul style="list-style-type: none">
+                <li class="subsubtitulo" style="padding-bottom: 10px">Em desenvolvimento</li>
+                <ul>
+                    <li>Propeller Clock</li>
+                    <li>Detector de janela aberta para o clube</li>
+                    <li>Controlo de um carro</li>
+                    <li>Analisador da fila da cantina</li>
+                    <li>Acesso ao clube por impressão digital</li>
+                    <li>CNC</li>
+                </ul>
+            </ul>
+            
+            <ul style="list-style-type: none">
+                <li class="subsubtitulo" style="padding-bottom: 10px">As nossas propostas</li>
+                <ul>
+                    <li>Matriz RGB interactiva</li>
+                    <li>Drone follower</li>
+                    <li>Apanha-bolas</li>
+                    <li>Monitor cardiaco + sensor de alcool p/ Android</li>
+                    <li>Condução autónoma</li>
+                    <li>Laser Harp no Bar do DEEC</li>
+                </ul>
+            </ul>
+
+            <ul style="list-style-type: none; clear: both">
+                <li class="subsubtitulo" style="padding-bottom: 10px">Robôs para as Competições</li>
+                <ul>
+                    <li>Robo Bombeiro</li>
+                    <li>Micro Mouse</li>
+                </ul>
+            </ul>
+
+            <div class="imagemfull"><img id="imagemfull" src="../imagens/noticias/bombeiro.jpg"></div>
+
+             <p style="float: right"><a target="_blank" class="link" href="https://docs.google.com/spreadsheet/ccc?key=0Aq1RH1csPjUIdG1WZDZyb2t2NnlVU25lUDR1Q2drZlE#gid=1">Mais informação</a></p>
+
+             <p style="clear: both">Convidamos assim a virem desenvolver os vossos projectos e ou as nossas propostas.</p>
+
+            <p>Todos os projectos a medida que forem concluídos serão disponibilizados na secção<a class="link" href="../paginas/database.html" target="_blank">DataBase.</a></p>
+
+            <a class="feed_text_saber" href="javascript:history.back()"<p>Back</p></a>
+        </div>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="contactos">
+        <a href="paginas/contactos.html"><i class="fa fa-envelope-o fa-2x"></i></a>
+        <a href="https://www.facebook.com/clube.robotica.uc?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+    </div>
+
+    <p class="direitos">@ 2014 Todos os direitos reservados. Desenvolvido por Frederico Vaz.</p>
+</footer>
+
+</body>
+
+<script>
+
+$( document ).ready(function() {
+    $('.noticias_titulo').addClass('animar');
+    $('.noticias_data').addClass('animar');
+    $('.header').addClass('animar');
+    $('.text').addClass('animar');
+});
+
+
+</script>
+
+</html>

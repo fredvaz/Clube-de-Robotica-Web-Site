@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="PT-PT">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+	<title>Clube de Robótica da UC</title>
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+	<link rel='stylesheet' href='../css/style.css'/>
+    <link rel='stylesheet' href='cabecalho.css'/>
+	<link rel='stylesheet' href='noticias.css'/>
+
+	<!-- jQuery library (served from Google) -->
+    <script src="../js/jquery.min.js"></script> 
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+
+<div class="heading_pages">
+
+    <div class="header">
+        <ul>
+            <div class="logo">
+                <li class="li0"><a href="../index.html"><img id="logo" src="../imagens/logo/logo_teste3.png" width="150px" /></a></li>
+            </div>
+            <div id="tablet">
+                <a href="javascript:show();"><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <div class="menu">
+                <li><img src="../imagens/barra/noticias.svg"><a href="../paginas/noticias.html">Notícias</a></li>
+                <li><img src="../imagens/barra/competicoes.svg"><a href="../paginas/competicoes.html">Competições</a></li>
+                 <li><img src="../imagens/barra/database.svg"><a href="../paginas/database.html">DataBase</a></li>
+                <li><img src="../imagens/barra/servicos.svg"><a href="../paginas/servicos.html">Serviços</a></li>
+                <li><img src="../imagens/barra/contactos.svg"><a href="../paginas/contactos.html">Contactos</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="imagem_cabecalho">
+    	<img src="../imagens/cabecalho/noticias.svg"/>
+        <h1 style="margin-top: 0px">Notícias</h1>
+
+    </div>
+</div>
+
+<div class="space"> 
+    <span class="cima" style="margin-top: -40px"></span>
+</div>
+
+<div class="pagina_noticias" style="margin-top: 5px">
+
+    <div class="margem_paginas">
+
+        <!--<div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Impressora</p>
+            <p style="margin: 0px">3D</p>
+        </div>
+        <div class="noticias_data">
+            <p>Quarta-feira, 10/10/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>O Clube acabou de adquirir uma impressora 3D com a qual vamos poder fazer plataformas para robôs de modo prático e à distância de um clique. Infelizmente o tempo de impressão é a desvantagem das impressoras 3D da actualidade. No entanto já é um grande avanço na área da tecnologia. Equipas de médicos já utilizam esta tecnologia para desenvolverem próteses.</p>
+            <a class="feed_text_saber" href="../noticias/impressora3D.html">Saber mais</a>
+        </div>
+        </div>
+        </div> -->
+
+        <div class="bloco">
+        <div class="noticias_titulo"> 
+            <p style="margin: 0px">Os Projectos</p>
+            <p style="margin: 0px">Do Clube</p>
+        </div>
+        <div class="noticias_data">
+            <p>Quinta-feira, 04/12/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>Um dos objectivos do Clube é permitir a nossa comunidade desenvolver as suas ideias ou algumas que venhamos a propor num ambiente de inter-ajuda assim como facilitar o peso econômico de um projecto que não seria realizavél por uma só pessoa.</p>
+            <a class="feed_text_saber" href="../noticias/projectos.html">Saber mais</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="bloco">
+        <div class="noticias_titulo"> 
+            <p style="margin: 0px">O novo Web Site</p>
+            <p style="margin: 0px">Do Clube</p>
+        </div>
+        <div class="noticias_data">
+            <p>Quarta-feira, 03/12/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>O web site do Clube de Robótica da Universidade de Coimbra já têm um nova cara. Foi completamente remodelado pretendendo assim conter mais informação e um novo visual em prol de todos os entusiastas de Robótica, electrónica e programação da Universidade de Coimbra.</p>
+            <a class="feed_text_saber" href="../noticias/novo_website.html">Saber mais</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Nova organização</p>
+            <p style="margin: 0px">Mais material</p>
+        </div>
+        <div class="noticias_data" id="ajuste">
+            <p>Segunda-feira, 8/10/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>A sala é a mesma mas a organização do Clube foi melhorada. Procurou-se essencialmente encontrar uma forma de deixar tudo arrumado na sua respectiva caixa de forma a que as bancadas de trabalho estejam sempre disponíveis, novas ferramentas e muito mais.</p>
+            <a class="feed_text_saber" href="../noticias/organizacao_material.html">Saber mais</a>
+        </div>
+        </div>
+        </div>
+
+        <div id="concurso" class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Concurso</p>
+            <p style="margin: 0px">Logotipo</p>
+        </div>
+        <div class="noticias_data">
+            <p>Segunda-feira, 29/09/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>O Clube de Robótica pretende renovar a sua imagem e para isso lança-te o desafio de criares um logótipo para o Clube e a oportunidade de ganhares um bilhete pontual para a latada.</p>
+            <a class="feed_text_saber" href="../noticias/concurso_logo.html">Saber mais</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Abertura da</p>
+            <p style="margin: 0px">Nova Época</p>
+        </div>
+        <div class="noticias_data">
+            <p>Quarta-feira, 24/09/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="feed_text0">
+            <p>É com muito agrado que abrimos a nova época lectiva do Clube de Robótica. Nesta primeira quarta-feira contamos já com algumas visitas por parte dos nossos membros dispostos a aprender. Também houve espaço para ensinar, alguns membros, a trabalhar com ARM uma Lauch pad da Texas Instruments.</p>
+            <a class="feed_text_saber" href="../noticias/abertura.html">Saber mais</a>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="contactos">
+        <a href="contactos.html"><i class="fa fa-envelope-o fa-2x"></i></a>
+        <a href="https://www.facebook.com/clube.robotica.uc?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+    </div>
+
+    <p class="direitos">@ 2014 Todos os direitos reservados. Desenvolvido por Frederico Vaz.</p>
+</footer>
+
+</body>
+<div id="fb-root"></div>
+
+<script>
+
+var num = 230;
+
+$(window).bind('scroll', function () {
+    var num = $(".heading_pages").height(); //Responsive
+    if ($(window).scrollTop() > num*0.6) {
+        $('.header').addClass('change_header');
+        $('.menu').addClass('change_menu');
+        $('.logo').addClass('change_logo');
+        $('#logo').addClass('change_imagemlogo');
+    } else {
+        $('.header').removeClass('change_header');
+        $('.menu').removeClass('change_menu');
+        $('.logo').removeClass('change_logo');
+        $('#logo').removeClass('change_imagemlogo');
+    }
+});
+
+$(document).ready(function() {
+    $('.noticias_titulo').addClass('animar');
+    $('.noticias_data').addClass('animar');
+    $('.imagem_cabecalho').addClass('animar');
+
+});
+
+</script>
+
+</html>

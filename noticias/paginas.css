@@ -1,0 +1,49 @@
+/* ========== ÍNICIO DAS PAGINAS ========= */
+.pagina_impressora3D, .pagina_novo_website, .pagina_organizacao, .pagina_concurso, .pagina_abertura, .pagina_projectos {
+	background-color: white;
+    width: 100%;
+}
+/* ======= COLOCAR AQUI NOVA PAGINA ====== */
+.pagina_projectos {
+	height: 1650px;
+}
+.pagina_impressora3D {
+    height: 2950px;
+}
+.pagina_novo_website {
+ 	height: 3200px;
+}
+.pagina_organizacao {
+    height: 1950px;
+}
+.pagina_concurso {
+    height: 1300px;
+}
+.pagina_abertura {
+	height: 2650px;
+}
+
+@media screen and (max-device-width: 800px), (max-width: 800px) {
+	.pagina_projectos {
+		height: 1700px;
+	}
+	.pagina_impressora3D {
+    	height: 2950px;
+	}
+	.pagina_novo_website {
+	 	height: 3900px;
+	}
+	.pagina_organizacao {
+	    height: 2000px;
+	}
+	.pagina_concurso {
+	    height: 1500px;
+	}
+	.pagina_abertura {
+		height: 2500px;
+	}
+}
+@media screen and (max-device-width: 480px), (max-width: 480px) {
+    
+}
+/* ========== FIM DAS PAGINAS ========= */

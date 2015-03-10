@@ -1,0 +1,78 @@
+.pagina_servicos {
+	background-color: white;
+	height: 500px;
+    width: 100%;
+}
+.margem_servicos {
+	padding-top: 10px;
+	width: 525px;
+	margin: auto;
+}
+.impressora {
+	float: left;
+	text-align: center;
+	margin-top: 90px;
+}
+.cnc {
+	float: right;
+	text-align: center;
+	margin-top: 90px;
+	margin-right: 40px;
+}
+.impressora img, .cnc img{
+	width: 120px;
+}
+.titulo_servicos {
+	font-size: 30px;
+	text-align: center;
+	color: #236B8E;
+}
+.brevemente {
+	clear: both;
+	text-align: center;
+	color: #236B8E;
+	margin: 350px 0 50px 0;
+}
+.animar {
+	-webkit-transform: translate(0px,0);
+}
+/* Reponsive */
+@media screen and (max-device-width: 800px), (max-width: 800px){
+	.pagina_servicos{
+		height: 500px; 
+	}
+	.margem_servicos {
+		width: 450px;
+	}
+	.titulo_servicos {
+		font-size: 30px;
+	}
+	.impressora img, .cnc img{
+		width: 100px;
+	}
+}
+@media screen and (max-device-width: 480px), (max-width: 480px){
+	.pagina_servicos{
+		height: 300px; 
+	}
+	.margem_servicos {
+		width: 250px;
+	}
+	.impressora {
+		margin-top: 50px;
+	}
+	.cnc {
+		margin-top: 50px;
+		margin-right: 10px;
+	}
+	.titulo_servicos {
+		font-size: 15px;
+	}
+	.impressora img, .cnc img{
+		width: 80px;
+	}
+	.brevemente {
+		margin: 215px 0 50px 0;
+	}
+   
+}

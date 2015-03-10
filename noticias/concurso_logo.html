@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="PT-PT">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="image_src" href="../imagens/noticias/cartaz.jpg" / >
+    <title>Concurso logo</title>
+
+    <meta name="description" content="O Clube de Robótica com o objectivo renovar a sua imagem lançou um concurso para criar um logótipo para o Clube com  um prémio de um bilhete pontual para a latada."/>
+
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../css/style.css'/>
+    <link rel='stylesheet' href='../paginas/cabecalho.css'/>
+    <link rel='stylesheet' href='../paginas/noticias.css'/>
+    <link rel='stylesheet' href='modelo.css'/>
+    <link rel='stylesheet' href='paginas.css'/>
+
+    <!-- jQuery library (served from Google) -->
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+
+<div class="header">
+        <ul>
+            <div class="logo">
+                <li class="li0"><a href="../index.html"><img id="logo" src="../imagens/logo/logo_teste3.png" width="150"/></a></li>
+            </div>
+            <div id="tablet">
+                <a href="javascript:show();"><i class="fa fa-bars fa-2x"></i></a>
+            </div>
+            <div class="menu">
+                <li><img src="../imagens/barra/noticias.svg"><a href="../paginas/noticias.html">Notícias</a></li>
+                <li><img src="../imagens/barra/competicoes.svg"><a href="../paginas/competicoes.html">Competições</a></li>
+                 <li><img src="../imagens/barra/database.svg"><a href="../paginas/database.html">DataBase</a></li>
+                <li><img src="../imagens/barra/servicos.svg"><a href="../paginas/servicos.html">Serviços</a></li>
+                <li><img src="../imagens/barra/contactos.svg"><a href="../paginas/contactos.html">Contactos</a></li>
+            </div>
+        </ul>
+</div>
+
+<div class="pagina_concurso">
+
+    <div class="margem_paginas">
+
+        <div class="bloco">
+        <div class="noticias_titulo">
+            <p style="margin: 0px">Concurso</p>
+            <p style="margin: 0px">Logótipo</p>
+        </div>
+        <div class="noticias_data" id="ajuste">
+            <p>Segunda-feira, 29/09/2014</p>
+        </div>
+
+        <div class="sub_bloco">
+
+        <div class="linha">
+        <div class="line1"></div><img class="img_line" src="../imagens/linha/micro_blue.svg"/><div class="line2"></div></div>
+
+        <div class="text">
+            <p>O Clube de Robótica com o objectivo renovar a sua imagem lançou um concurso para criar um logótipo para o Clube com  um prémio de um bilhete pontual para a latada.</p>
+
+            <div class="imagem"><img id="imagem" src="../imagens/noticias/cartaz.jpg"/></div>
+
+            <p>Parte da campanha passou pela divulgação do respectivo cartaz no DEEC e DEI, assim como pelas redes sociais.<a class="link" href="https://www.facebook.com/clube.robotica.uc/photos/a.393017130781475.93631.241117275971462/698535376896314/?type=1&theater" target="_blank">Publicação no Facebook</a></p>
+
+            <a class="feed_text_saber" href="javascript:history.back()"><p>Back</p></a>
+        </div>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="contactos">
+        <a href="paginas/contactos.html"><i class="fa fa-envelope-o fa-2x"></i></a>
+        <a href="https://www.facebook.com/clube.robotica.uc?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+    </div>
+
+    <p class="direitos">@ 2014 Todos os direitos reservados. Desenvolvido por Frederico Vaz.</p>
+</footer>
+
+</body>
+
+<script>
+
+$( document ).ready(function() {
+    $('.noticias_titulo').addClass('animar');
+    $('.noticias_data').addClass('animar');
+    $('.header').addClass('animar');
+    $('.text').addClass('animar');
+});
+
+
+</script>
+
+</html>

@@ -1,0 +1,144 @@
+.header {
+    height: 65px;
+    padding-top: 7px;
+    background: rgba(0, 0, 0,.75);
+    z-index: 1;
+    -webkit-transform: translate(0,-80px);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.logo {
+    display: block;
+    margin-top: -25px;
+}
+#logo {
+	width: 125px;
+}
+.margem_paginas {
+    padding-top: 140px;
+}
+.subtitulo {
+	font-size: 35px;
+	color: #236B8E;
+	padding-top: 20px;
+}
+.subsubtitulo { /* Fica com + o espaçamento do p */
+	font-size: 20px;
+	color: #236B8E;
+}
+h3 { /* Substitui o subsubtitulo letra +grossa */
+	color: #236B8E;
+}
+.text p { /* Espaçamento maior q o standard 1 */
+	padding-bottom: 15px;
+}
+.text {
+	margin-top: 25px;
+	-webkit-transform: translate(0,80px);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.lista {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+.lita ul {
+	list-style-type: circle;
+}
+#imagem {
+	width: 400px;
+	border-bottom: 1px dotted black;
+	padding-bottom: 5px;
+}
+.imagem {
+	width: 400px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+#imagemfull {
+	width: 650px;
+	border-bottom: 1px dotted black;
+	padding-bottom: 5px;
+}
+.imagemfull{
+	width: 650px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.img {
+	width: 60px;
+	margin-left: 25px;
+}
+.legenda {
+	margin-left: 2px;
+	font-size: 15px;
+}
+.video {
+	margin-bottom: 40px;
+}
+.link {
+	color: #236B8E;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.sublinhado {
+    color: #236B8E;
+    text-decoration: none;
+}
+.developer {
+	margin: auto;
+}
+.codigo {
+	background-color: #FAF2F7;
+	padding: 0px;
+}
+.animar {
+	-webkit-transform: translate(0px,0);
+}
+@media screen and (max-device-width: 800px), (max-width: 800px){
+	.header {
+		height: 40px;
+        padding-top: 55px;
+	}
+	#logo {
+		width: 100px;
+	}
+	.logo{
+        margin-top: -70px;
+        margin-left: -10px;
+    }
+    .margem_paginas {
+	    padding-top: 110px;
+	    width: 550px;
+	}
+	.text {
+		font-size: 19px;
+		width: 550px;
+	}
+	.sub_bloco {
+		width: 550px;
+	}
+	.subtitulo {
+		font-size: 30px;
+	}
+	.subsubtitulo {
+		font-size: 15px;
+	}
+	#imagemfull {
+		width: 550px;
+	}
+	.imagemfull{
+		width: 550px;
+	}
+	#imagem {
+		width: 550px;
+	}
+	.imagem {
+		width: 550px;
+	}
+    
+}
+@media screen and (max-device-width: 480px), (max-width: 480px){
+    
+}

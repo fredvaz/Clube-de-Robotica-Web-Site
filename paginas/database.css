@@ -1,0 +1,65 @@
+.pagina_database {
+	background-color: white;
+	height: 850px;
+    width: 100%;
+    margin: auto;
+    font-weight: 300;
+    text-align: justify;
+}
+.margem_database {
+	padding-top: 30px;
+	width: 650px;
+	margin: auto;
+}
+.bloco_database {
+	margin: auto;
+}
+.titulo_database {
+	font-size: 50px;
+	text-align: center;
+	color: #236B8E;
+}
+.tutoriais_text, .projectos_text {
+	text-align: center;
+	color: #236B8E;
+}
+.projectos_text {
+	margin-bottom: -50px;
+}
+.tutoriais_text p, .projectos_text p {
+	font-size: 20px;
+}
+.tutoriais_text p:hover,  .projectos_text p:hover {
+	-webkit-transform: scale(1.2);
+}
+.animar {
+	-webkit-transform: translate(0px,0);
+}
+/* Reponsive */
+@media screen and (max-device-width: 800px), (max-width: 800px){
+	.pagina_database{
+		height: 750px; 
+	}
+	.titulo_database {
+		font-size: 40px;
+	}
+}
+@media screen and (max-device-width: 480px), (max-width: 480px){
+	.pagina_database{
+		height: 700px; 
+	}
+	.margem_database {
+		padding-top: 15px;
+		width: 320px;
+	}
+	.titulo_database {
+		font-size: 30px;
+	}
+	.tutoriais_text p:hover,  .projecto_text p:hover {
+		-webkit-transform: scale(1);
+	}
+}
+
+
+
+
